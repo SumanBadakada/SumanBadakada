@@ -18,8 +18,8 @@ Upload a Boston lease and get every clause flagged *lawful*, *unusual* or *possi
 - Evaluation harness over 20 labeled leases and edge cases, reporting recall on unlawful clauses, citation accuracy and cost per lease
 - `Python` `Streamlit` `Gemini` `Pydantic` `NumPy` · team project, IS883 (Fall 2026)
 
-### 🏙️ [311 Pulse: Boston](https://github.com/SumanBadakada/boston-311-pulse)
-Weekly operations brief for Boston city managers from 550K+ 311 service requests: what's surging, which departments are falling behind, which neighborhoods are served worse than their request mix predicts, and which problems keep coming back.
+### 🏙️ [311 Pulse: Boston](https://github.com/SumanBadakada/boston-311-pulse) · [live daily brief](https://sumanbadakada.github.io/boston-311-pulse/)
+Daily-refreshed operations brief for Boston city managers from live 311 service requests: what's surging, which departments are falling behind, which neighborhoods are served worse than their request mix predicts, and which problems keep coming back.
 - Poisson-scored surge detection, as-of-date replay of any past week, mix-adjusted on-time gap by neighborhood
 - AI-written brief where every number is checked against the computed facts; drafts with untraceable figures are discarded
 - `Python` `pandas` `Streamlit` `Claude API` · extends a team Tableau project from Analytics for Managers
