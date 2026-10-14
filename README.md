@@ -18,9 +18,12 @@ Upload a Boston lease and get every clause flagged *lawful*, *unusual* or *possi
 - Evaluation harness over 20 labeled leases and edge cases, reporting recall on unlawful clauses, citation accuracy and cost per lease
 - `Python` `Streamlit` `Gemini` `Pydantic` `NumPy` · team project, IS883 (Fall 2026)
 
-### ☁️ CloudPulse
-AWS cost-optimization agent that detects idle and wasted resources in real time and proposes fixes, with a human-in-the-loop approval step before any change.
-- `Python` `Claude tool calling` `AWS`
+### 🛰️ [ci-watch](https://github.com/SumanBadakada/ci-watch)
+Competitive intelligence refresh agent. Watches competitor pages, decides which changes matter, rewrites only the affected section of a sales battlecard, and routes every edit through human approval.
+- Normalise-then-diff pipeline with cheap filters before any model call, so a nightly run over dozens of vendors stays affordable
+- LLM materiality classifier tuned for asymmetric error cost: a missed price change is worse than a false alarm
+- Approve/reject review queue with a changelog, idempotent re-runs, offline demo and tests in CI
+- `Python` `Claude API` `GitHub Actions`
 
 ---
 
